@@ -215,3 +215,6 @@
     justify-content: flex-end;
     width: 320px;
 }
+.footerBox .footerSocialBox .social{
+    margin-right: 5px;
+}
