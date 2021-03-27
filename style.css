@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 @font-face {
-        font-family: Lemon-Milk;
-        src: url(/font/LEMON_MILK/LEMONMILK-Bold.otf);
-     }
+    font-family: LemonMilk-bold;
+    src: url(font/LemonMilkbold.otf);
+}
+@font-face {
+    font-family: Arial-Bold;
+    src: url(font/arial-bold.ttf);
+}
+@font-face {
+    font-family: Arial-regular;
+    src: url(font/Arial-regular.ttf);
+}
 /*==========================mainBox========================*/
 .mainBox{
     display: flex;
@@ -54,7 +62,7 @@
     color: white;
     border-radius: 3.0rem;
     text-decoration: none;
-    font-family: Arial Regular ;
+    font-family: "Arial-Bold";
     font-size: 12px;
 }
 .bottonBox a:hover{
@@ -80,7 +88,7 @@
     text-align: center;
     flex-direction: column;
     margin-top: -20px;
-    font-family: Arial Regular;
+    font-family: "Arial-regular";
     font-size: 20px;
 }
 .expLoginBox .expTxtBox .expImg{
@@ -118,7 +126,7 @@
 }
 .loginBox .cadBox .user{
     margin: -10px 0px -10px 10px;
-    font-family: Arial Regular;
+    font-family: Arial;
     font-size: 15px;
 } 
 .loginBox .cadBox .inputText{
@@ -165,25 +173,25 @@
 }
 .expLoginBox .loginTxtImgBox .logintxtBox #sever{
     color: #FF9811;
-    font-family: Lemon-Milk - bold;
+    font-family: "LemonMilk-bold";
     font-size: 12px;
     margin-bottom: -8px;
 }
 .expLoginBox .loginTxtImgBox .logintxtBox #on{
     color: #A3D900;
-    font-family: Lemon-Milk - bold;
+    font-family: "LemonMilk-bold";
     font-size: 50px;
     margin-bottom: 30px;
 }
 .expLoginBox .loginTxtImgBox .logintxtBox #palyers{
     color: #FF9811;
-    font-family: Lemon-Milk - bold;
+    font-family: "LemonMilk-bold";
     font-size: 12px;
     margin-bottom: -8px;
 }
 .expLoginBox .loginTxtImgBox .logintxtBox #a9999{
     color: #451E5A;
-    font-family: Lemon-Milk - bold;
+    font-family: "LemonMilk-bold";
     font-size: 50px;
 }
 .expLoginBox .loginTxtImgBox .loginImgBox .loginImg{
